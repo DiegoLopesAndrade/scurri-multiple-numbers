@@ -1,4 +1,4 @@
-Function to display multiples numbers (Multiples of 3/5 and 3&5)
+Function to display multiples numbers (Multiples of 3-5 and 3and5)
 
 
 
