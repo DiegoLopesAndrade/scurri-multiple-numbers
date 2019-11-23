@@ -1,4 +1,7 @@
 def multipleNumbers(i):
+    """
+    Function with logic to know if numbers are multiples of 3, 5 or 3 and 5
+    """
     entry = ''
     if i%3 == 0:
         entry += 'Three'
@@ -11,6 +14,9 @@ def multipleNumbers(i):
 
 
 def listMultiplesNumbers(start, end):
+    """
+    Function to create a list of numbers and "added" into that
+    """
     numbers = list()
 
     for i in range(start, end+1):
@@ -20,6 +26,9 @@ def listMultiplesNumbers(start, end):
 
 
 def showNumbers(numbers):
+    """
+    Function to display our numbers(when the number is multiple, not display the number)
+    """
     for number in numbers:
         print(number)
 
